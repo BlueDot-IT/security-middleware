@@ -95,3 +95,10 @@ fields with DOM text nodes rather than HTML injection.
 
 This project is licensed under the **MIT License**.  
 See `LICENSE.md` for the full license text.
+
+## Supported Node.js runtimes
+
+Use Node.js 22.23.4+ (22.x), 24.22.1+ (24.x), or 26.12.1+. Earlier
+runtimes include the vulnerable native Brotli decoder (CVE-2026-111497).
+The same baseline applies to the Next.js example. Run `nvm install` to use the
+repository's pinned Node.js version.
